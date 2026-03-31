@@ -1,0 +1,181 @@
+body{
+    margin: 0%;
+    /* padding: 10px; */
+}
+body>main{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("https://us.123rf.com/450wm/gradplanet/gradplanet2311/gradplanet231113204/217347390-realistic-grilled-barbeque-with-melted-barbeque-sauce-and-cut-vegetables-black-and-blur-background.jpg?ver=6");
+   height: 100vh;
+   width: 100vw;
+   background-repeat: no-repeat;
+   background-size: cover;
+   /* position: fixed; */
+   flex-wrap: wrap;
+   
+} 
+a{
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: large;
+    color:white;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+    margin: 20px;
+    padding: 20px;
+   
+    
+
+}
+nav>div:nth-child(1)>a{
+   color: orange;
+   font-size: 32px;
+   font-family: serif;
+}
+nav>div:nth-child(2)>a{
+   padding: 8px;
+   font-family: sans-serif;
+}
+nav>div:nth-child(2)>a:hover{
+    color: orange;
+    text-decoration: solid orange underline;
+}
+    
+
+nav>div:nth-child(1){
+    font-size: larger;
+    font-family: fantasy;   
+    
+}
+
+nav>div:nth-child(2){
+    
+}
+button{
+    text-transform: uppercase;
+    background-color: orange;
+    color: aliceblue;
+    height: 35px;
+    width: 120px;
+    text-align: center;
+    border: none;
+    
+}
+button:hover{
+    background-color: orangered;
+    transform: scaley(1.2);
+    border-radius: 10px;
+}
+.b1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 70px;
+    color: aliceblue;
+    font-family: sans-serif;
+}
+h3{
+    color: aliceblue;
+}
+img{
+    object-fit: cover;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    animation: spin 10s linear 0s infinite;
+    
+            
+        }
+        @keyframes spin{
+            from{
+                transform: rotate(0deg);
+            }
+            to{
+                transform: rotate(360deg);
+            }
+        }
+.b2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.b2>div:nth-child(1){
+     height: 300px;
+    width: 300px;
+    padding: 2px;
+    border-radius: 2px;
+    box-shadow: 10px 10px 10px 10px gray;
+    text-align: center;
+    transition: all 1s linear 0s;
+    
+}
+.b2>div:nth-child(1):hover{
+    background-color: orange;
+    color: white;
+}
+
+.b2>div:nth-child(2){
+      height: 300px;
+    width: 300px;
+    padding: 2px;
+    border-radius: 2px;
+    box-shadow: 10px 10px 10px 10px gray;
+    text-align: center;  
+    transition: all 1s linear 0s; 
+}
+.b2>div:nth-child(2):hover{
+    background-color: orange;
+    color: white;
+}
+    .b2>div:nth-child(3){
+    height: 300px;
+    width: 300px;
+    padding: 2px;
+    border-radius: 2px;
+    box-shadow: 10px 10px 10px 10px gray;
+    text-align: center;
+     transition: all 1s linear 0s;
+    }
+    .b2>div:nth-child(3):hover{
+    background-color: orange;
+    color: white;
+}
+    .b2>div:nth-child(4){
+    height: 300px;
+    width: 300px;
+    padding: 2px;
+    border-radius: 2px;
+    box-shadow: 10px 10px 10px 10px gray;
+    text-align: center;
+    transition: all 1s linear 0s;
+    }
+    .b2>div:nth-child(4):hover{
+    background-color: orange;
+    color: white;
+}
+
+.b2>div:nth-child(1)>h4{
+    color: black;
+    text-align: justify;
+
+}
+.b2>div:nth-child(2)>h4{
+    color: black;
+    text-align: justify;
+
+}
+.b2>div:nth-child(3)>h4{
+    color: black;
+    text-align: justify;
+
+}
+.b2>div:nth-child(4)>h4{
+    color: black;
+    text-align: justify;
+
+}
+
